@@ -1,1 +1,6 @@
 name : Build and niktoi
+on: 
+push:
+  branches: [ main ]
+pull_request:
+  branches: [ main ]
